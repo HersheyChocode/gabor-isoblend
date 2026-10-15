@@ -154,7 +154,7 @@ class PlaidIsoBlender:
                 elif self.freq_scheme == "monotonic":
                     sf = 10.0+ (k / (K - 1)) * 26.0
                 else:
-                    sf = 12.0 if k % 2 == 0 else 28.0
+                    sf = 12.0 if k % 2 == 0 else 28.0 # THIS IS WHAT YOU CHANGE 
             else:
                 sf = self.const_freq
 
@@ -304,7 +304,7 @@ class PlaidIsoBlender:
             canvas[:] = self.GABOR_BG
     
             density = self.density
-            step = W / density
+            step = W / (density)
             patch_r = step * 0.95
             jitter_rad = math.radians(self.ori_jitter_deg) if self.vary_orientation else 0.0
             is_mix = self.random_mixture_control
@@ -331,8 +331,30 @@ class PlaidIsoBlender:
     
                     ix = int(max(0, min(W - 1, math.floor(cx))))
                     iy = int(max(0, min(H - 1, math.floor(cy))))
+                    k_center = band_idx[iy, ix]
+                    band = bands[k_center]
+                    if is_mix:
+                        k_center = int(math.floor(rnd() * len(bands)))
+                    else:
+                        k_center = band_idx[iy, ix]
+
+                    band = bands[k_center]
+                    base_theta = band["avg_angle"]
+
+                    if band["is_tangent"] and not is_mix:
+                        gxv = plaid[iy, min(W - 1, ix + 1)] - plaid[iy, max(0, ix - 1)]
+                        gyv = plaid[min(H - 1, iy + 1), ix] - plaid[max(0, iy - 1), ix]
+                        base_theta = math.atan2(gyv, gxv) + math.pi / 2
+
+                    jit = (rnd() - 0.5) * 2 * jitter_rad if jitter_rad > 0 else 0.0
+                    phase = rnd() * 2 * math.pi if self.random_phase else 0.0
+                    f = (band["sf"] / W) * 2.5
+
+                    # DRAW ONCE: Render the full, unclipped patch without 'for k in ks:'
+                    self._draw_gabor_patch(canvas, cx, cy, patch_r, base_theta + jit, f, phase, band["color"])
     
                     band_ind = -1; 
+                    """
                     if is_mix:
                         band = bands[int(math.floor(rnd() * len(bands)))]
                         ks = [band["k"]]
@@ -356,6 +378,7 @@ class PlaidIsoBlender:
                         self._draw_gabor_patch(canvas, cx, cy, patch_r, base_theta + jit, f, phase,
                                             band["color"],
                                             band_idx=None if is_mix else band_idx, k=int(k))
+                                            """
     
             return canvas
 
@@ -441,9 +464,10 @@ class PlaidIsoBlender:
         H, W, _ = canvas.shape
         sigma = radius * 0.38
         two_sig_sq = 2 * sigma * sigma
-        bar_spacing = 1 / (f or 0.05)
-        num_bars = 4
-        line_w = max(1.5, bar_spacing * 0.45)
+        bar_spacing = 1 / (f*2 or 0.05)
+        num_bars = 1
+        line_w = max(1.5, bar_spacing * 0.5)
+        bar_len = radius * 1.2
 
         ext = radius + line_w / 2 # + 2
         x0, x1 = max(0, int(math.floor(cx - ext))), min(W, int(math.ceil(cx + ext)))
@@ -471,18 +495,17 @@ class PlaidIsoBlender:
             #if gauss < 0.05:
             #    continue
             #bar_len = math.sqrt(max(0.0, radius * radius - u * u)) * 1.8
-            bar_len = radius
 
             dist = np.hypot(U - u, np.maximum(np.abs(T) - bar_len / 2, 0.0))
             cover = np.clip(line_w / 2 - dist + 0.5, 0.0, 1.0)
             #a = (cover * (gauss * 0.9))[..., None]
             band_mask = None
-            if band_idx is not None:
-                band_mask = (band_idx[y0:y1, x0:x1] == k)
-                if not band_mask.any():
-                    return
-            if band_mask is not None:
-                cover = cover * band_mask
+            #if band_idx is not None:
+            #    band_mask = (band_idx[y0:y1, x0:x1] == k)
+            #    if not band_mask.any():
+            #        return
+            #if band_mask is not None:
+            #    cover = cover * band_mask
             a = cover[..., None]
 
             region[:] = js_round(region * (1 - a) + colv * a)    # 8-bit canvas after every stroke
@@ -624,6 +647,7 @@ def randomize_values():
     #w_plaid = random.random()
     #c1 = random.random()
     freq1 = random.randint(4,6)
+    random_mixture_control = bool(random.getrandbits(1))
     return dict(#w_plaid = w_plaid,
             #w_texture = 1 - w_plaid,
             #plaid_contrast = random.random(),
@@ -632,16 +656,17 @@ def randomize_values():
             #c2 = 0,
             #freq2 = freq1,
             #texture_mode = ["gabor", "continuous", "bands"][random.randint(0,2)],
-            #density = random.randint(16,42),
-            #grating_rotated = True,
+            density = 28,#random.randint(16,42),
             #random_phase = bool(random.getrandbits(1)),
-            random_mixture_control = False, #bool(random.getrandbits(1)),
-            num_bands = random.randint(3,7),
-            vary_frequency = bool(random.getrandbits(1)),
+            random_mixture_control = False, #random_mixture_control,
+            grating_rotated = False, #IF TRUE THEN RANDOM_MIXTURE_CONTROL MUST BE FALSE 
+            num_bands = 3,#random.randint(3,7),
+            vary_frequency = True, #bool(random.getrandbits(1)),
             vary_orientation = bool(random.getrandbits(1)),
+            vary_color = True,
             #vary_color = bool(random.getrandbits(1)),
             #ori_scheme = ["ortho", "stepped", "tangent"][random.randint(0,2)],
-            ori_jitter_deg = random.randint(0,44),
+            #ori_jitter_deg = random.randint(0,44),
         )
     """
     #CONTROL:
