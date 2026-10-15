@@ -72,22 +72,20 @@ class PlaidIsoBlender:
         w_plaid: float = 0.50,
         w_texture: float = 0.50,
         plaid_contrast: float = 1.0,
-        # Relative shift of texture vs plaid (pixels)
-        shift_x: int = 0,
-        shift_y: int = 0,
         periodic_wrap: bool = True,          # True: wrap around, False: clamp to edge
         # Control condition: texture bands assigned randomly, uncorrelated with plaid
         random_mixture_control: bool = False,
         mixture_seed: int = 1960,            # seed for the control pattern's random choices
-        # Plaid wave 1 (freq is in cycles across the image WIDTH)
+        # Plaid wave 1 -- true grating, what textures should be aligned to (freq is in cycles across the image WIDTH)
         c1: float = 1,
         theta1_deg: float = 45.0,
         freq1: float = 6.0,
         phase1_deg: float = 0.0,
-        # Plaid wave 2 -- on control show, shouldn't exist 
-        c2: float = 0,
+        # Plaid wave 2 -- on control show, shouldn't exist; if grating_rotated is true, this is the rotated grating
+        grating_rotated: bool = False,
+        c2: float = 1,
         theta2_deg: float = 135.0,
-        freq2: float = 0,
+        freq2: float = 6.0,
         phase2_deg: float = 0.0,
         # Gaussian envelope (>= 140 means no envelope)
         sigma: float = 150.0,
@@ -113,13 +111,12 @@ class PlaidIsoBlender:
         self.w_texture = float(w_texture)
         self.plaid_contrast = float(plaid_contrast)
 
-        self.shift_x = int(shift_x)
-        self.shift_y = int(shift_y)
         self.periodic_wrap = bool(periodic_wrap)
         self.random_mixture_control = bool(random_mixture_control)
         self.mixture_seed = int(mixture_seed)
 
         self.c1, self.theta1_deg, self.freq1, self.phase1_deg = float(c1), float(theta1_deg), float(freq1), float(phase1_deg)
+        self.grating_rotated = bool(grating_rotated)
         self.c2, self.theta2_deg, self.freq2, self.phase2_deg = float(c2), float(theta2_deg), float(freq2), float(phase2_deg)
         self.sigma = float(sigma)
 
@@ -183,8 +180,8 @@ class PlaidIsoBlender:
             idx = np.where(p < b["t_high"], b["k"], idx)
         return idx
 
-    # ------------------------------------------------------------------ plaid
-    def _compute_plaid(self) -> np.ndarray:
+    # ------------------------------------------------------------------ plaid OLD 
+    def _compute_plaid_old(self) -> np.ndarray:
         """Mirror of computePlaidField(): float64, clamped to [0, 1], NOT quantized."""
         W, H = self.width, self.height
         nx = np.arange(W, dtype=np.float64) - W / 2.0
@@ -207,6 +204,34 @@ class PlaidIsoBlender:
 
         raw = 0.5 * (1.0 + env * self.plaid_contrast * (self.c1 * w1 + self.c2 * w2))
         return np.clip(raw, 0.0, 1.0)
+
+    # ------------------------------------------------------------------ GRATING 
+    def _compute_grating(self, rotated = None) -> np.ndarray:
+        """Mirror of computePlaidField(): float64, clamped to [0, 1], NOT quantized."""
+        W, H = self.width, self.height
+        nx = np.arange(W, dtype=np.float64) - W / 2.0
+        ny = np.arange(H, dtype=np.float64) - H / 2.0
+        X, Y = np.meshgrid(nx, ny)
+
+        k1 = 2 * math.pi * (self.freq1 / W)
+        k2 = 2 * math.pi * (self.freq2 / W)
+        th1, th2 = math.radians(self.theta1_deg), math.radians(self.theta2_deg)
+        ph1, ph2 = math.radians(self.phase1_deg), math.radians(self.phase2_deg)
+
+        u1 = X * math.cos(th1) + Y * math.sin(th1)
+        u2 = X * math.cos(th2) + Y * math.sin(th2)
+        w1 = np.cos(k1 * u1 + ph1)
+        w2 = np.cos(k2 * u2 + ph2)
+
+        env = 1.0
+        if self.sigma < 140.0:
+            env = np.exp(-(X * X + Y * Y) / (2.0 * self.sigma * self.sigma))
+
+        raw = 0.5 * (1.0 + env * self.plaid_contrast * (self.c1 * w1))
+        rotated_raw = 0.5 * (1.0 + env * self.plaid_contrast * (self.c2 * w2))
+        if rotated is None: 
+            return np.clip(raw, 0.0, 1.0)
+        return np.clip(rotated_raw, 0.0, 1.0)
 
     # ---------------------------------------------------------- mixture helper
     def _mix_cell_map(self, bands) -> np.ndarray:
@@ -512,7 +537,8 @@ class PlaidIsoBlender:
     def generate(self) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
         """Returns (blend_rgb, plaid_rgb, texture_rgb) as uint8 (H, W, 3)."""
         W, H = self.width, self.height
-        plaid = self._compute_plaid()
+        #plaid = self._compute_plaid()
+        plaid = self._compute_grating()
         bands = self._get_band_specs()
 
         if self.texture_mode == "continuous":
@@ -523,8 +549,8 @@ class PlaidIsoBlender:
             tex = self._texture_gabor(plaid, bands)
 
         # Relative spatial shift: out(x, y) = tex(x - dx, y - dy)
-        ys = np.arange(H) - self.shift_y
-        xs = np.arange(W) - self.shift_x
+        ys = np.arange(H)
+        xs = np.arange(W)
         if self.periodic_wrap:
             ys, xs = (ys % H + H) % H, (xs % W + W) % W
         else:
@@ -532,7 +558,11 @@ class PlaidIsoBlender:
         tex = tex[ys][:, xs]
         tex_u8 = np.clip(tex, 0, 255).astype(np.uint8)
 
+        
         # Weighted blend in [0, 1] using the UNquantized plaid and the 8-bit texture
+        rotated_plaid = self._compute_grating(rotated=True)
+        if self.grating_rotated:
+            plaid = rotated_plaid
         blend = np.clip(self.w_plaid * plaid[..., None] + self.w_texture * (tex_u8.astype(np.float64) / 255.0), 0.0, 1.0)
         blend_u8 = js_round(blend * 255).astype(np.uint8)
 
@@ -543,7 +573,8 @@ class PlaidIsoBlender:
     def contour_segments(self):
         """Marching-squares iso-contour segments, same 80x80 sampling as drawIsoluminanceContours()."""
         W, H = self.width, self.height
-        plaid = self._compute_plaid()
+        #plaid = self._compute_plaid()
+        plaid = self._compute_grating()
         bands = self._get_band_specs()
         RES = 80
         step = W / (RES - 1)
@@ -598,13 +629,14 @@ def randomize_values():
             #plaid_contrast = random.random(),
             #c1 = c1,
             #freq1 = freq1,
-            c2 = 0,
+            #c2 = 0,
             #freq2 = freq1,
             #texture_mode = ["gabor", "continuous", "bands"][random.randint(0,2)],
             #density = random.randint(16,42),
-            random_phase = bool(random.getrandbits(1)),
-            random_mixture_control = bool(random.getrandbits(1)),
-            num_bands = random.randint(3,9),
+            #grating_rotated = True,
+            #random_phase = bool(random.getrandbits(1)),
+            random_mixture_control = False, #bool(random.getrandbits(1)),
+            num_bands = random.randint(3,7),
             vary_frequency = bool(random.getrandbits(1)),
             vary_orientation = bool(random.getrandbits(1)),
             #vary_color = bool(random.getrandbits(1)),
@@ -704,7 +736,7 @@ def main2():
 
     blender = PlaidIsoBlender(
         width=a.width, height=a.height, w_plaid=a.w_plaid, w_texture=a.w_texture,
-        plaid_contrast=a.contrast, shift_x=a.shift_x, shift_y=a.shift_y, periodic_wrap=a.wrap,
+        plaid_contrast=a.contrast, periodic_wrap=a.wrap,
         random_mixture_control=a.control_mixture, mixture_seed=a.seed, num_bands=a.bands,
         texture_mode=a.mode, vary_orientation=a.vary_ori, ori_scheme=a.ori_scheme,
         vary_frequency=a.vary_freq, vary_color=a.vary_col,

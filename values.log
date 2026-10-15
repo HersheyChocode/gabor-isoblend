@@ -306,3 +306,322 @@
 1. {'freq1': 0, 'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
 2026-10-08 21:34:20.318935
 1. {'freq1': 0, 'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 18:51:53.785259
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:08:23.150251
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:11:07.454289
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:11:16.672165
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:12:37.900820
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:14:11.314178
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:21:24.283017
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:21:40.926896
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+3. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+4. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+5. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+6. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+7. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+8. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+9. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+10. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+11. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:22:22.222120
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:26:08.568839
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:26:54.832357
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:27:07.487054
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:27:20.787225
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:27:26.471548
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:27:33.951788
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:27:46.676120
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:28:49.826805
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:31:47.894800
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:39:55.563959
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:40:10.602928
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:46:26.328035
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:46:36.890991
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:46:51.272814
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:50:06.529723
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:50:12.558258
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:53:57.219636
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:57:25.603341
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:59:16.593293
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 20:59:47.413632
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:07:43.350145
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:08:12.283303
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:10:14.622205
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:10:55.443263
+1. {'freq1': 0, 'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:12:10.382138
+1. {'freq1': 0, 'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:12:39.023846
+1. {'freq1': 0, 'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:12:50.252210
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:14:57.593979
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:15:05.505272
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:15:57.448076
+1. {'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:16:05.591989
+1. {'freq2': 2, 'texture_mode': 'gabor', 'density': 16, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 0}
+2026-10-14 21:17:31.174045
+1. {'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5, 'ori_jitter_deg': 0}
+2026-10-14 21:17:53.321509
+1. {'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5, 'ori_jitter_deg': 0}
+2026-10-14 21:18:09.580580
+1. {'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 4, 'ori_jitter_deg': 0}
+2026-10-14 21:18:59.675698
+1. {'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+2026-10-14 21:21:00.600766
+1. {'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+2026-10-14 21:21:06.945480
+1. {'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+2026-10-14 21:21:53.494237
+1. {'w_texture': 0, 'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+2026-10-14 21:22:18.228372
+1. {'w_texture': 0, 'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5, 'vary_color': True}
+2026-10-14 21:22:56.373646
+1. {'w_texture': 0, 'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+2026-10-14 21:24:41.906773
+1. {'w_texture': 0, 'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 6}
+2026-10-14 21:25:21.181777
+1. {'w_texture': 0, 'freq1': 2, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 6}
+2026-10-14 21:25:40.648615
+1. {'w_texture': 0, 'freq1': 5, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 6}
+2026-10-14 21:25:54.506529
+1. {'freq1': 5, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 6}
+2026-10-14 21:26:36.738889
+1. {'freq1': 5, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 6, 'vary_color': True}
+2026-10-14 21:33:04.821709
+1. {'freq1': 5, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 6, 'vary_color': True}
+2026-10-14 21:34:52.191620
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 6, 'vary_color': True}
+2026-10-14 21:35:54.452479
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 2, 'vary_color': True}
+2026-10-14 21:37:14.245444
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 2, 'vary_color': True}
+2026-10-14 21:37:24.220508
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 2, 'vary_color': True}
+2026-10-14 21:38:07.180133
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 2, 'vary_color': True}
+2026-10-14 21:38:58.175722
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 2, 'vary_color': True}
+2026-10-14 21:53:18.722253
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 2, 'vary_color': True}
+2026-10-14 21:53:35.342590
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 2, 'vary_color': True}
+2026-10-14 21:54:20.249565
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 2, 'vary_color': True}
+2026-10-14 21:54:38.633982
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 2, 'vary_color': True}
+2026-10-14 21:55:40.374475
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 2, 'vary_color': True}
+2026-10-14 21:59:37.350437
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 2, 'vary_color': True}
+2026-10-14 22:00:00.363140
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5, 'vary_color': True}
+2026-10-14 22:07:33.268472
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5, 'vary_color': True}
+2026-10-14 22:10:26.651305
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5, 'vary_color': True}
+2. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5, 'vary_color': True}
+3. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5, 'vary_color': True}
+4. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5, 'vary_color': True}
+2026-10-14 22:11:51.793737
+1. {'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+2026-10-14 22:14:15.986613
+1. {'w_plaid': 0.374782097653653, 'w_texture': 0.625217902346347, 'plaid_contrast': 0.5, 'c1': 0.2778247867107366, 'freq1': 5, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+2. {'w_plaid': 0.9396172566062754, 'w_texture': 0.060382743393724625, 'plaid_contrast': 0.5, 'c1': 0.6197529565454236, 'freq1': 6, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+3. {'w_plaid': 0.11742285074000047, 'w_texture': 0.8825771492599995, 'plaid_contrast': 0.5, 'c1': 0.39367796263425836, 'freq1': 6, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+4. {'w_plaid': 0.8066353658004956, 'w_texture': 0.19336463419950445, 'plaid_contrast': 0.5, 'c1': 0.2642401795347227, 'freq1': 6, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+5. {'w_plaid': 0.22171435951763474, 'w_texture': 0.7782856404823653, 'plaid_contrast': 0.5, 'c1': 0.251935039503294, 'freq1': 6, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+6. {'w_plaid': 0.3173209698261531, 'w_texture': 0.6826790301738469, 'plaid_contrast': 0.5, 'c1': 0.5087911207161742, 'freq1': 4, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+7. {'w_plaid': 0.0013094393239597713, 'w_texture': 0.9986905606760402, 'plaid_contrast': 0.5, 'c1': 0.19019946321085712, 'freq1': 5, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+8. {'w_plaid': 0.6089562400281681, 'w_texture': 0.39104375997183194, 'plaid_contrast': 0.5, 'c1': 0.31191872994917247, 'freq1': 6, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+9. {'w_plaid': 0.7121699282279835, 'w_texture': 0.28783007177201647, 'plaid_contrast': 0.5, 'c1': 0.7655791004174518, 'freq1': 4, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+10. {'w_plaid': 0.49481080750156814, 'w_texture': 0.5051891924984319, 'plaid_contrast': 0.5, 'c1': 0.14133211627238418, 'freq1': 4, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+11. {'w_plaid': 0.4282644467109725, 'w_texture': 0.5717355532890275, 'plaid_contrast': 0.5, 'c1': 0.5636036175346301, 'freq1': 5, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+12. {'w_plaid': 0.5324591880935968, 'w_texture': 0.4675408119064032, 'plaid_contrast': 0.5, 'c1': 0.17845830011875174, 'freq1': 5, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+13. {'w_plaid': 0.4176961377771591, 'w_texture': 0.5823038622228409, 'plaid_contrast': 0.5, 'c1': 0.6675204457699524, 'freq1': 4, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+14. {'w_plaid': 0.030187374291491986, 'w_texture': 0.969812625708508, 'plaid_contrast': 0.5, 'c1': 0.2654657058986578, 'freq1': 4, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+15. {'w_plaid': 0.6845095348770919, 'w_texture': 0.3154904651229081, 'plaid_contrast': 0.5, 'c1': 0.2529177554133366, 'freq1': 6, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+16. {'w_plaid': 0.9065635676562316, 'w_texture': 0.09343643234376842, 'plaid_contrast': 0.5, 'c1': 0.7903790124375837, 'freq1': 6, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+17. {'w_plaid': 0.2548809290033355, 'w_texture': 0.7451190709966645, 'plaid_contrast': 0.5, 'c1': 0.6547366471944371, 'freq1': 4, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+18. {'w_plaid': 0.733512891857835, 'w_texture': 0.26648710814216503, 'plaid_contrast': 0.5, 'c1': 0.8955181827084904, 'freq1': 4, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+19. {'w_plaid': 0.33972460772296487, 'w_texture': 0.6602753922770351, 'plaid_contrast': 0.5, 'c1': 0.04365302113230429, 'freq1': 4, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+20. {'w_plaid': 0.2887937632450148, 'w_texture': 0.7112062367549852, 'plaid_contrast': 0.5, 'c1': 0.5202046928764319, 'freq1': 4, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+21. {'w_plaid': 0.48499164397255246, 'w_texture': 0.5150083560274475, 'plaid_contrast': 0.5, 'c1': 0.7375802176783853, 'freq1': 6, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+22. {'w_plaid': 0.7212054139524563, 'w_texture': 0.2787945860475437, 'plaid_contrast': 0.5, 'c1': 0.02680558245594289, 'freq1': 4, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+23. {'w_plaid': 0.6702691803975755, 'w_texture': 0.32973081960242445, 'plaid_contrast': 0.5, 'c1': 0.35346610872185136, 'freq1': 5, 'theta2_deg': 90, 'c2': 0, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+2026-10-14 22:15:25.583247
+1. {'c2': 0, 'freq1': 4, 'texture_mode': 'gabor', 'density': 16, 'num_bands': 5}
+2026-10-14 22:16:44.563546
+1. {'c1': 0.8933043908504564, 'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 5, 'vary_frequency': False, 'vary_orientation': False, 'vary_color': False, 'ori_jitter_deg': 31}
+2026-10-14 22:21:53.484625
+1. {'c1': 0.797781815477842, 'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': True, 'vary_color': False, 'ori_jitter_deg': 24}
+2. {'c1': 0.026593972198728277, 'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 8, 'vary_frequency': True, 'vary_orientation': False, 'vary_color': False, 'ori_jitter_deg': 42}
+3. {'c1': 0.2564713766864528, 'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 8, 'vary_frequency': False, 'vary_orientation': False, 'vary_color': False, 'ori_jitter_deg': 28}
+4. {'c1': 0.21038413610214468, 'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'vary_color': False, 'ori_jitter_deg': 3}
+5. {'c1': 0.39296404471538704, 'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 6, 'vary_frequency': True, 'vary_orientation': True, 'vary_color': False, 'ori_jitter_deg': 23}
+6. {'c1': 0.7866694308797819, 'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 7, 'vary_frequency': False, 'vary_orientation': False, 'vary_color': True, 'ori_jitter_deg': 22}
+7. {'c1': 0.4229584112055699, 'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 4, 'vary_frequency': True, 'vary_orientation': True, 'vary_color': True, 'ori_jitter_deg': 16}
+8. {'c1': 0.7819200224929177, 'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 7, 'vary_frequency': False, 'vary_orientation': False, 'vary_color': False, 'ori_jitter_deg': 31}
+9. {'c1': 0.1250045753896889, 'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': True, 'vary_color': True, 'ori_jitter_deg': 22}
+2026-10-14 22:22:54.901978
+1. {'c1': 0.23735248723075542, 'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 7, 'vary_frequency': False, 'vary_orientation': True, 'vary_color': False, 'ori_jitter_deg': 21}
+2. {'c1': 0.19409947888589896, 'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': False, 'vary_orientation': True, 'vary_color': False, 'ori_jitter_deg': 0}
+3. {'c1': 0.01646032504796935, 'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': True, 'vary_color': True, 'ori_jitter_deg': 37}
+4. {'c1': 0.52925054841532, 'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 6, 'vary_frequency': True, 'vary_orientation': False, 'vary_color': False, 'ori_jitter_deg': 28}
+2026-10-14 22:25:02.369191
+1. {'c1': 0.7163002259291493, 'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 14}
+2. {'c1': 0.5092521905983599, 'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 8}
+3. {'c1': 0.4669469898403976, 'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 7, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 38}
+4. {'c1': 0.05261135693157415, 'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 6, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 23}
+5. {'c1': 0.2577686641082301, 'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 8}
+6. {'c1': 0.6913055447583358, 'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 15}
+2026-10-14 22:38:24.208794
+1. {'c1': 0.38878332537170723, 'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 42}
+2. {'c1': 0.9450557215190628, 'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 6, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 22}
+3. {'c1': 0.08213178872630977, 'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 5, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 40}
+4. {'c1': 0.9934328745676637, 'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 3, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 16}
+5. {'c1': 0.1425942585201465, 'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 28}
+6. {'c1': 0.63910849956652, 'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 27}
+7. {'c1': 0.0651236671505776, 'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 4, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 12}
+8. {'c1': 0.9510446457325736, 'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 16}
+9. {'c1': 0.5760181439952042, 'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 8, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 4}
+10. {'c1': 0.4107814320409051, 'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 3, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 13}
+11. {'c1': 0.41956207892238984, 'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 3, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 34}
+12. {'c1': 0.9329315659099302, 'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 7, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 37}
+13. {'c1': 0.22634678553585996, 'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 8, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 24}
+14. {'c1': 0.2045803069007801, 'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 8, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 2}
+2026-10-14 22:41:34.832999
+1. {'c1': 0.7575494557275625, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 8, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 30}
+2. {'c1': 0.46112572891962067, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 6}
+3. {'c1': 0.4889771987095496, 'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 4, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 16}
+4. {'c1': 0.6212332303251684, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 24}
+5. {'c1': 0.7161782974509955, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 4, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 6}
+6. {'c1': 0.3080295617107949, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 27}
+7. {'c1': 0.7919839625731204, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 7, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 14}
+8. {'c1': 0.2288314055956555, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 7, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 17}
+9. {'c1': 0.5009309820694396, 'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 6, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 44}
+10. {'c1': 0.5164018894167548, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 9}
+11. {'c1': 0.47474509147888677, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 8, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 16}
+12. {'c1': 0.22283168126565256, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 3, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 37}
+13. {'c1': 0.39192079266167623, 'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 3, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 35}
+14. {'c1': 0.9440435183714162, 'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 8, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 19}
+15. {'c1': 0.4463480118972849, 'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 25}
+16. {'c1': 0.37902453225800536, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 42}
+17. {'c1': 0.14242015686056775, 'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 3, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 6}
+18. {'c1': 0.5045925775217933, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 34}
+19. {'c1': 0.5983447041954556, 'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 7, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 40}
+20. {'c1': 0.25745818424804945, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 8, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 24}
+21. {'c1': 0.43118042826153236, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 30}
+22. {'c1': 0.483495858161593, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 35}
+23. {'c1': 0.939629306440245, 'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 3, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 0}
+24. {'c1': 0.7608365188769723, 'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 5, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 32}
+25. {'c1': 0.6104295135480872, 'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 43}
+2026-10-14 22:42:51.955294
+1. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 6, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 3}
+2. {'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 7, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 36}
+3. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 8, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 4}
+4. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 3, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 4}
+5. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 9, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 4}
+6. {'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 3, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 35}
+7. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 25}
+8. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 5, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 33}
+9. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 5}
+10. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 4, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 35}
+11. {'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 8, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 4}
+12. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 2}
+13. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 5, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 13}
+14. {'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 4, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 27}
+15. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 9, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 8}
+16. {'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 28}
+17. {'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 7, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 18}
+18. {'c2': 0, 'random_mixture_control': True, 'random_phase': True, 'num_bands': 8, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 5}
+19. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 6, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 20}
+20. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 8, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 34}
+21. {'c2': 0, 'random_mixture_control': True, 'random_phase': False, 'num_bands': 6, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 7}
+2026-10-14 22:43:27.992211
+1. {'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 15}
+2. {'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 3}
+3. {'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 3, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 22}
+4. {'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 4}
+5. {'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 8, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 1}
+6. {'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 8, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 36}
+7. {'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 4, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 37}
+8. {'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 7, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 14}
+9. {'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 6, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 3}
+10. {'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 6, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 17}
+2026-10-14 23:08:00.339220
+1. {'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 44}
+2. {'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 9, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 4}
+3. {'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 8, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 44}
+4. {'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 36}
+2026-10-14 23:10:48.574153
+1. {'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 6, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 14}
+2026-10-14 23:11:20.771485
+1. {'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 24}
+2. {'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 13}
+3. {'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 9, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 20}
+4. {'c2': 0, 'random_phase': True, 'random_mixture_control': True, 'num_bands': 3, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 12}
+5. {'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 2}
+6. {'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 3, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 33}
+7. {'c2': 0, 'random_phase': True, 'random_mixture_control': False, 'num_bands': 3, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 33}
+8. {'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 17}
+9. {'c2': 0, 'random_phase': False, 'random_mixture_control': True, 'num_bands': 7, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 8}
+10. {'c2': 0, 'random_phase': False, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 34}
+2026-10-14 23:12:51.374319
+1. {'c2': 0, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 35}
+2. {'c2': 0, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 37}
+3. {'c2': 0, 'random_mixture_control': False, 'num_bands': 3, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 34}
+4. {'c2': 0, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 12}
+5. {'c2': 0, 'random_mixture_control': False, 'num_bands': 8, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 8}
+6. {'c2': 0, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 16}
+2026-10-14 23:13:17.863097
+1. {'c2': 0, 'grating_rotated': True, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 3}
+2. {'c2': 0, 'grating_rotated': True, 'random_mixture_control': False, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 9}
+3. {'c2': 0, 'grating_rotated': True, 'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 44}
+4. {'c2': 0, 'grating_rotated': True, 'random_mixture_control': False, 'num_bands': 3, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 5}
+5. {'c2': 0, 'grating_rotated': True, 'random_mixture_control': False, 'num_bands': 9, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 44}
+2026-10-14 23:13:45.064551
+1. {'grating_rotated': True, 'random_mixture_control': False, 'num_bands': 7, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 28}
+2. {'grating_rotated': True, 'random_mixture_control': False, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': True, 'ori_jitter_deg': 31}
+3. {'grating_rotated': True, 'random_mixture_control': False, 'num_bands': 4, 'vary_frequency': False, 'vary_orientation': False, 'ori_jitter_deg': 12}
+4. {'grating_rotated': True, 'random_mixture_control': False, 'num_bands': 3, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 34}
+2026-10-14 23:14:10.246001
+1. {'random_mixture_control': False, 'num_bands': 3, 'vary_frequency': True, 'vary_orientation': False, 'ori_jitter_deg': 29}
+2. {'random_mixture_control': False, 'num_bands': 5, 'vary_frequency': True, 'vary_orientation': True, 'ori_jitter_deg': 31}
